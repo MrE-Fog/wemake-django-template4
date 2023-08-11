@@ -436,18 +436,20 @@ tests = ["ddt (>=1.2.2,<2)", "pytest (<6)"]
 
 [[package]]
 name = "docker-image-size-limit"
-version = "0.4.1"
+version = "1.0.1"
 description = ""
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.8,<4.0"
 files = [
-    {file = "docker-image-size-limit-0.4.1.tar.gz", hash = "sha256:6a76d9504fc9b752d80ac8b7fde2b33a9d2655a7d599dcc96c907f71926c8f82"},
-    {file = "docker_image_size_limit-0.4.1-py3-none-any.whl", hash = "sha256:9da2097dc8ffc27b4092da8eec779969b49ed4437baed5eb455a06bfa9358461"},
+    {file = "docker_image_size_limit-1.0.1-py3-none-any.whl", hash = "sha256:9d6e59d48df316f9940c05633f6cdcb07ff75b8462d3764f05b734edd9373b10"},
+    {file = "docker_image_size_limit-1.0.1.tar.gz", hash = "sha256:ce391464ee1974332de2fd36d76c3008af1930abb583a84a4bf07a8ba2868977"},
 ]
 
 [package.dependencies]
-docker = ">=3.7,<6.0"
-humanfriendly = ">=4.18,<10.0"
+docker = ">=3.7,<7.0"
+humanfriendly = ">=4.18,<11.0"
+requests = "<2.29"
+urllib3 = "<2"
 
 [[package]]
 name = "dockerpty"
@@ -1987,4 +1989,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "04a113f7213927db07b14c56c343a65cf8458a24a8440ce6931ddb41331d5fbc"
+content-hash = "aa827bb0cfc8548e4839fa4cc8abcfdda746109ce2f338f5e68fd5c73aae0ba4"
