@@ -580,18 +580,18 @@ tests = ["jinja2 (>=2.9.6)", "mock (==1.0.1)", "pep8 (==1.4.6)", "pytest (<4.0)"
 
 [[package]]
 name = "django-debug-toolbar"
-version = "3.7.0"
+version = "4.2.0"
 description = "A configurable set of panels that display various debug information about the current request/response."
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "django-debug-toolbar-3.7.0.tar.gz", hash = "sha256:1e3acad24e3d351ba45c6fa2072e4164820307332a776b16c9f06d1f89503465"},
-    {file = "django_debug_toolbar-3.7.0-py3-none-any.whl", hash = "sha256:80de23066b624d3970fd296cf02d61988e5d56c31aa0dc4a428970b46e2883a8"},
+    {file = "django_debug_toolbar-4.2.0-py3-none-any.whl", hash = "sha256:af99128c06e8e794479e65ab62cc6c7d1e74e1c19beb44dcbf9bad7a9c017327"},
+    {file = "django_debug_toolbar-4.2.0.tar.gz", hash = "sha256:bc7fdaafafcdedefcc67a4a5ad9dac96efd6e41db15bc74d402a54a2ba4854dc"},
 ]
 
 [package.dependencies]
-Django = ">=3.2.4"
-sqlparse = ">=0.2.0"
+django = ">=3.2.4"
+sqlparse = ">=0.2"
 
 [[package]]
 name = "django-extra-checks"
@@ -2869,4 +2869,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.9"
-content-hash = "79af9e5abc71912983b00562e8a757f768783aaf67627f6cf44d97786c1d0195"
+content-hash = "6c39dbca380d03388887431f6c4f60183d1915e1801e40cc93cd99991974243f"
