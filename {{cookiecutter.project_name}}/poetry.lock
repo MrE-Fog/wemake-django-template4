@@ -686,12 +686,12 @@ Django = ">=3.2"
 
 [[package]]
 name = "django-querycount"
-version = "0.7.0"
+version = "0.8.3"
 description = "Middleware that Prints the number of DB queries to the runserver console."
 optional = false
 python-versions = "*"
 files = [
-    {file = "django-querycount-0.7.0.tar.gz", hash = "sha256:8f5123d78716ff0704f2373e746a7200b8d8417798ce4a99bf2de87e3768f9ce"},
+    {file = "django-querycount-0.8.3.tar.gz", hash = "sha256:0782484e8a1bd29498fa0195a67106e47cdcc98fafe80cebb1991964077cb694"},
 ]
 
 [[package]]
@@ -2858,4 +2858,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.9"
-content-hash = "5b62e87b1d80e226ca975b60621c059a3afa78eefed2d4f7cff0faa914babc42"
+content-hash = "2c63072010e18acc2b4e341b1fe2e076b02b8b98fc7255f2755da6d2f260db75"
