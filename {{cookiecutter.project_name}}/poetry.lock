@@ -1067,12 +1067,12 @@ test = ["pytest-cov"]
 
 [[package]]
 name = "flake8-logging-format"
-version = "0.7.5"
+version = "0.9.0"
 description = ""
 optional = false
 python-versions = "*"
 files = [
-    {file = "flake8-logging-format-0.7.5.tar.gz", hash = "sha256:54f7e349c934ce5c594f251885bc2240e99f6b48752a672a8fc7e3d1388352bb"},
+    {file = "flake8-logging-format-0.9.0.tar.gz", hash = "sha256:e830cc49091e4b8ab9ea3da69a3da074bd631ce9a7db300e5c89fb48ba4a6986"},
 ]
 
 [package.extras]
@@ -2858,4 +2858,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.9"
-content-hash = "2c63072010e18acc2b4e341b1fe2e076b02b8b98fc7255f2755da6d2f260db75"
+content-hash = "6cd6919bbf065ef6f1537f066435cd03bdaf66091d69bf5f362a3ff41968f85e"
