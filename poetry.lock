@@ -1145,13 +1145,13 @@ files = [
 
 [[package]]
 name = "nitpick"
-version = "0.33.0"
+version = "0.34.0"
 description = "Enforce the same settings across multiple language-independent projects"
 optional = false
-python-versions = ">=3.7,<4.0"
+python-versions = ">=3.8,<4.0"
 files = [
-    {file = "nitpick-0.33.0-py3-none-any.whl", hash = "sha256:737fe069f0597c2ebfc6f50f86415296fd604d5d8f475ae12efb19527455dc54"},
-    {file = "nitpick-0.33.0.tar.gz", hash = "sha256:62015828cc2977166ee53b8affacd35aaede450fe822ec8874a0383e67e565e7"},
+    {file = "nitpick-0.34.0-py3-none-any.whl", hash = "sha256:ca346dfdd256dadb7c0e6d5c939ba4182a826c40ea395705d9653cf56469cdef"},
+    {file = "nitpick-0.34.0.tar.gz", hash = "sha256:ea01639a02a01e4a49e06e3018e2c0da8fb3a25068467884f5a178d8d8d81023"},
 ]
 
 [package.dependencies]
@@ -1173,7 +1173,7 @@ more-itertools = "*"
 pluggy = "*"
 python-slugify = "*"
 requests = "*"
-requests-cache = ">=0.9.7"
+requests-cache = ">=1.0.0"
 "ruamel.yaml" = "*"
 sortedcontainers = "*"
 StrEnum = "*"
@@ -2026,4 +2026,4 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=6)", "pytest-black (>=
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "ac8a5444432f6700c12e9a54226bffc0fa73a3b8a96024910eb28564a8f6f4ae"
+content-hash = "e24caef99c07dca9cdca3fbbd98a23f1e01d6da52d276835484e9e6f75518d53"
